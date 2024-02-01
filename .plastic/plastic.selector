@@ -1,0 +1,4 @@
+repository "Test_Like_Frozen_City@s1abmmo@cloud"
+  path "/"
+    br "/main"
+    co "/main"

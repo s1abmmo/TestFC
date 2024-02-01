@@ -1,0 +1,43 @@
+# Những file không cần thiết cho việc commit lên repository
+
+# File Logs
+Logs/
+
+# File Temp
+Temp/
+
+# File UserSetting
+UserSettings/
+
+# File Library
+Library/
+
+# File ProjectSetting
+ProjectSettings/
+
+# File AssetStoreTools
+AssetStoreTools*
+
+# Exceptions to above rules.
+!/[Aa]ssets/**/*.meta
+!/[Aa]ssets/**/postpr*
+
+# Thư mục build sản phẩm
+[Bb]uild/
+[Bb]uilds/
+
+# File Asset Store
+*.asset
+*.unitypackage
+
+# Crash Handler Log Files
+sysinfo.txt
+
+# End User License Agreement Asset
+[Ee]ula.txt
+
+# Tiện ích và file thêm của VisualStudio
+.vs/
+
+# File Khác
+project.lock.json
