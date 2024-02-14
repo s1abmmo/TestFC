@@ -9,7 +9,7 @@ public class CameraZoom : MonoBehaviour
     public Camera myCamera;
     private Touch oldTouch1, oldTouch2;
     private float oldTouchDistance;
-    public TextMeshPro text;
+    //public TextMeshPro text;
     //private float maxYCamera = 250f;
     //private float minYCamera = 50f;
 
@@ -26,7 +26,7 @@ public class CameraZoom : MonoBehaviour
     {
         //text.text = myCamera.transform.position.y.ToString();
 
-        text.text = myCamera.orthographicSize.ToString();
+        //text.text = myCamera.orthographicSize.ToString();
 
         Touch touch1 = Input.GetTouch(0);
         Touch touch2 = Input.GetTouch(1);
